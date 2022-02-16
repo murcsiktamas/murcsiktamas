@@ -1,0 +1,23 @@
+Pygame Dodge Ball Game
+
+Game operation:
+The player controls a circle.
+Initially, there are 1 enemy circle that collide with the edges of the screen
+they bounce back.
+A square (food) will randomly appear on the screen to be "added"
+with the directed circle.
+If you hit it, the number of score will increase by one.
+The more hits, the more enemy circles will appear.
+In the meantime, we also count the time.
+If the enemy ball collides with the directed ball, the game is over,
+the results are displayed on the screen.
+
+Task solution:
+1. Screen creation, initialization
+2. Create player balls, move them with the mouse.
+3. Create enemy bullets, move them at a given speed.
+The balls should bounce back after contact with the frame.
+4. Collision detection, i.e. collision monitoring of enemy bullets
+and the player ball.
+5. Create square (food( at a random position on the screen.
+7. Initialize game over screen.
